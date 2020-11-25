@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mynicestart">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +12,7 @@
         android:theme="@style/Theme.MyNiceStart">
         <activity android:name=".MainActivity2"
             android:parentActivityName=".MainActivity"
-            android:theme="@style/Theme.MyApplication2">
+            android:theme="@style/Theme.MyNiceStart2">
 
         </activity>
         <activity android:name=".SplashScreen">
@@ -20,7 +21,7 @@
         <activity android:name=".ActivitySignUp" />
         <activity android:name=".ActivityLogin" />
         <activity android:name=".MainActivity"
-            android:theme="@style/Theme.MyApplication2">
+            android:theme="@style/Theme.MyNiceStart2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

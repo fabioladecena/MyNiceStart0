@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class SplashScreen extends AppCompatActivity {
@@ -21,6 +22,8 @@ public class SplashScreen extends AppCompatActivity {
         Animation myanim = AnimationUtils.loadAnimation(this, R.anim.alpha);
         mySubtitle.startAnimation(myanim);
         openApp(true);
+
+
     }
 
     private void openApp(boolean locationPermission) {
@@ -33,6 +36,6 @@ public class SplashScreen extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 6000);
+        }, 5000);
     }
 }

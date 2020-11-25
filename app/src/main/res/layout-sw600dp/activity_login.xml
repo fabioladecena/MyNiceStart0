@@ -8,7 +8,7 @@
     tools:context=".ActivityLogin">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/campBackground"
         android:layout_width="960dp"
         android:layout_height="1700dp"
         android:scaleType="centerCrop"
