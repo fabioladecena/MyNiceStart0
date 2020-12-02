@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 /**
- * Ventana de bienvenida de la aplicación
+ * Ventana de Log in
  * @author fabid
  * @see MainActivity
  * @see ActivitySignUp
