@@ -11,7 +11,12 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-
+/**
+ * Ventana de bienvenida de la aplicación
+ * @author fabid
+ * @see MainActivity
+ * @see ActivitySignUp
+ */
 public class ActivityLogin extends AppCompatActivity {
     protected Button loginButton;
     protected Button signupButton;
@@ -30,7 +35,7 @@ public class ActivityLogin extends AppCompatActivity {
             }
         });
 
-        signupButton = (Button)findViewById(R.id.button_login);
+        signupButton = (Button)findViewById(R.id.button_signup);
         signupButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
