@@ -11,7 +11,11 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
-
+/**
+ * Ventana de inicio
+ * @author fabid
+ * @see MainActivity2
+ */
 public class MainActivity extends AppCompatActivity {
     protected Button goproButton;
     protected ImageView avatarIV;

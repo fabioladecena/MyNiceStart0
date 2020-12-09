@@ -6,7 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-
+/**
+ * Ventana de registro de la aplicación
+ * @author fabid
+ * @see MainActivity
+ * @see ActivitySignUp
+ */
 public class ActivitySignUp extends AppCompatActivity {
     protected Button cancelButton;
     @Override
